@@ -66,3 +66,39 @@ button{
     color: white;   
     font-weight: bold;
 }
+
+@media (max-width: 600px) {
+    main {
+        padding: 5rem 1rem; /* Reduce padding for mobile */
+    }
+
+    .info-links {
+        width: 90%; /* Make it more flexible on smaller screens */
+        height: auto; /* Let it adjust based on content */
+    }
+
+    .links {
+        width: 100%; /* Make links container full width */
+    }
+
+    .link {
+        height: 50px; /* Adjust button height */
+    }
+
+    img {
+        width: 120px; /* Slightly smaller avatar */
+        height: 120px; /* Maintain aspect ratio */
+    }
+
+    .name-location h2 {
+        font-size: 1.2rem; /* Adjust font size for mobile */
+    }
+
+    .info h2 {
+        font-size: 0.9rem; /* Adjust quote font size */
+    }
+
+    .attribution {
+        font-size: 10px; /* Smaller attribution text */
+    }
+}
